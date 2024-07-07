@@ -109,11 +109,10 @@ h2 {
 #contact {
     margin-bottom: 200px;
 }
-#kiss {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* 수평 가운데 정렬 */
-  
+.slider-container, .slides, .slides img, .slider-container button, img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 footer {
