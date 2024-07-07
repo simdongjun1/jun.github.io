@@ -8,6 +8,7 @@
 
 .slides {
     display: flex;
+    width: 500px; /* 컨테이너의 고정된 너비 설정 */
     overflow: hidden; /* 이미지가 컨테이너를 벗어나지 않도록 함 */
 }
 
@@ -16,7 +17,6 @@
     max-width: 500px; 
     flex-shrink: 0;
 }
-
 button.prev, button.next {
     position: absolute;
     top: 50%;
