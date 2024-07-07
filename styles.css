@@ -37,9 +37,9 @@ h2 {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #4CAF50;
+    background-color: #3607b8;
     color: white;
     position: fixed;
     width: 100%;
-    bottom: 0;
+    bottom: 100px;
 }
