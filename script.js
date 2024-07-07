@@ -20,7 +20,7 @@ function moveSlide(n) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    showSlides(); // 초기 슬라이드 표시
+    showSlides(); 
 });
 
 document.querySelector('.prev').addEventListener('click', () => {

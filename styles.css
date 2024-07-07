@@ -4,11 +4,11 @@
 }
 
 .resume-photo {
-    width: 150px; /* 원하는 크기로 설정하세요 */
+    width: 150px; 
     height: auto;
-    margin-right: 20px; /* 텍스트와 이미지 사이의 간격 조절 */
-    border-radius: 50%; /* 원형으로 만들기 위해 추가 */
-    object-fit: cover; /* 이미지가 잘리더라도 비율 유지 */
+    margin-right: 20px; 
+    border-radius: 10px;
+    object-fit: cover; 
 }
 
 
