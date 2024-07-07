@@ -13,9 +13,10 @@
 
 .slides img {
     width: 100%;
-    flex-shrink: 0;
+    height: auto;
+    max-height: 500px; /* 원하는 최대 높이로 설정 */
+    object-fit: cover; /* 이미지가 슬라이더 영역에 맞게 조정됨 */
 }
-
 button.prev, button.next {
     position: absolute;
     top: 50%;
