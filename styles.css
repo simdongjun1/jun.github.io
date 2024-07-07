@@ -109,11 +109,7 @@ h2 {
 #contact {
     margin-bottom: 200px;
 }
-.slider-container, .slides, .slides img, .slider-container button, img {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
+
 
 footer {
     text-align: center;
