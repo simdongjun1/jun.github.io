@@ -13,10 +13,9 @@
 
 .slides img {
     width: 100%;
-    height: auto;
-    max-height: 500px; 
-    object-fit: cover; 
+    flex-shrink: 0;
 }
+
 button.prev, button.next {
     position: absolute;
     top: 50%;
