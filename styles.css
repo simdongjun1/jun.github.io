@@ -8,8 +8,7 @@
 
 .slides {
     display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%; 
+    overflow: hidden; /* 이미지가 컨테이너를 벗어나지 않도록 함 */
 }
 
 .slides img {
