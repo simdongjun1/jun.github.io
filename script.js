@@ -1,5 +1,4 @@
 let slideIndex = 0;
-const slideInterval = 3000; // 슬라이드가 전환되는 시간 간격 (밀리초 단위)
 
 function showSlides() {
     const slides = document.querySelectorAll('.slides img');
@@ -20,15 +19,16 @@ function moveSlide(n) {
     showSlides();
 }
 
-function autoSlides() {
-    slideIndex++;
-    showSlides();
-    setTimeout(autoSlides, slideInterval);
-}
-
 document.addEventListener('DOMContentLoaded', () => {
-    showSlides();
-    setTimeout(autoSlides, slideInterval); // 자동 슬라이드 시작
+    showSlides(); // 초기 슬라이드 표시
+});
+
+document.querySelector('.prev').addEventListener('click', () => {
+    moveSlide(-1);
+});
+
+document.querySelector('.next').addEventListener('click', () => {
+    moveSlide(1);
 });
 
 document.querySelectorAll('nav ul li a').forEach(anchor => {
