@@ -14,7 +14,7 @@ body {
     z-index: 1;
 }
 
-body::before {
+/* body::before {
     content: '';
     position: absolute;
     top: 0;
@@ -24,7 +24,7 @@ body::before {
     background: inherit;
     filter: blur(10px);
     z-index: -1;
-}
+} */
 
 header {
     background-color: rgba(54, 7, 184, 0.8);
